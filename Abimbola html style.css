@@ -30,3 +30,53 @@ body{margin:30px;
 			 	line-height: 1.5em}
 			 td{border: 5px  black}
 			 th,td {padding: 15px}
+			 .form legend{font: bold;color:maroon;
+				text-align: center;line-height:50px
+					}
+	
+	.name label{color:maroon ;font-style: italic; 
+				text-align: left}
+			input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				padding: 12px 20px
+			}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);
+			,50%, 50%);
+				padding: 12px 20px}
+	.email	input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%)
+
+				padding: 12px 20px
+			}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);
+				padding: 12px 20px}
+
+	.title input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);}
+	.message
+			 input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);}

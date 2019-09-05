@@ -82,5 +82,36 @@
 			</tbody>
 		</table>
 	</div>
+	<!--contact form-->
+<form>
+	<div class="form">
+	<form action="process.phd" onsubmit="return validateForm()" method="POST">
+		<fieldset>
+			<legend>Contact Form</legend>
+		<div class="name"> <label> Name:<br>
+			<input type="text" name="firstname" minlength="4" size="60%" placeholder="First name and Last name" required="">
+		</label>
+		<div class="Email">
+			<label>Email </label> <br>
+			<input type="email" id="email" name="email" size="60%" required="">
+		</div>
+		<div class="Title">
+			<label>Title</label> <br>
+			<input type=" text" name="Title" size="60%"required="">
+	</div>
+		<div class="Message"><br>
+			<label>Message</label><br>
+		
+				<input type=" textarea" name=" Message"minlength="20" placeholder="Please drop a Message" size="80%" required="">
+	
+			
+		</div>
+
+		<div class="Submit"><br>
+			<input type="submit" name="Submit" value="Submit">
+		</div>
+	</fieldset>
+</form>
+</div>
 </body>
 </html>
