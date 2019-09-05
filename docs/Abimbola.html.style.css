@@ -1,0 +1,82 @@
+
+body{margin:30px;
+	font: normal 16px Arial, Helvetica, sans-serif;
+	background: grey;
+	align-self: center;}
+	.container{width:100%
+				height:100%;
+				margin: auto}
+	 .box-1{background-color:#301f30;
+	 	color: grey;
+		font: normal 16px Arial, Helvetica, sans-serif;
+	 	margin:auto;
+	 	height:100%
+	 	width:100%;}
+	.box-1 img{float: left;
+		margin: 5px 10px
+		width:100%
+		height:100%;
+		border:2px #3f1f30 solid}
+
+	.categories h3,h4 {color:maroon ;font-style: italic}
+				h5{color: #3f0f1f}
+				p, ul{line-height: 1.5em}
+
+	.table thead{color: #3f0f1f; 
+				text-align: left}
+
+			table{table-layout: fixed; 
+				align-items: center;
+			 	line-height: 1.5em}
+			 td{border: 5px  black}
+			 th,td {padding: 15px}
+			 .form legend{font: bold;color:maroon;
+				text-align: center;line-height:50px
+					}
+	
+	.name label{color:maroon ;font-style: italic; 
+				text-align: left}
+			input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				padding: 12px 20px
+			}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);
+			,50%, 50%);
+				padding: 12px 20px}
+	.email	input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%)
+
+				padding: 12px 20px
+			}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);
+				padding: 12px 20px}
+
+	.title input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);}
+	.message
+			 input:valid,
+			input:in-range {
+				background: hsl(120, 50%, 90%);
+				border-color: hsl(120,50%, 50%);
+				}
+			input:invalid,
+			input:out-of-range {
+				background:hsl(0, 50%, 50%);
+				border-color: hsl(0, 50%, 50%);}
